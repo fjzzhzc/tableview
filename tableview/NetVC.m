@@ -22,6 +22,7 @@
     NSString *str = @"http://baidu.cn";
     NSURL *url = [NSURL URLWithString:str];
     NSURLRequest *req = [[NSURLRequest alloc] initWithURL:url];
+    
     NSURLConnection *con = [NSURLConnection connectionWithRequest:req delegate:self];
 }
 
